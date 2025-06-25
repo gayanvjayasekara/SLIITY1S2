@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>PAYMENT DETAILS</title>
+  <link rel="stylesheet" href="payment.css" />
+</head>
+
+<body>
+
+
+  <div class="container">
+    <div class="left-section">
+      <div style="margin-left: 20%">
+        <h1>PAYMENT DETAILS</h1>
+        <form method="post" action="payment_submit.php">
+          <br />
+          <br />
+
+          <div class="flex">
+            <div class="flex-item">
+              <h3>Insurance Type</h3>
+              <select class="text1" required id="insurance Type" name="insurance_type">
+                <option selected disabled value="">Select<select</option>
+                <option value="Third Party">Third Party</option>
+                <option value="Full">Full</option>
+              </select>
+
+            </div>
+            <div class="flex-item">
+              <h3>Claim Type</h3>
+              <select class="text1" required id="Claim Type" name="claim_type">
+                <option selected disabled value="">Select</option>
+                <option value="Auto Liability Coverage">Auto Liability Coverage</option>
+                <option value="Collision Coverage">Collision Coverage</option>
+                <option value="Comprehensive Coverage">Comprehensive Coverage</option>
+                <option value="Personal Injury Protection">Personal Injury Protection</option>
+                <option value="Medical Payments Coverage">Medical Payments Coverage</option>
+                
+              </select>
+            </div>
+          </div>
+
+          <br />
+          <br />
+          
+          <div class="line1">
+            <div>
+              <h3>First Name</h3>
+              <input type="text"  name="first_name" class="text1"/>
+            </div>
+            <div>
+              <h3>Last Name</h3>
+              <input type="text" name="last_name" class="text1"/>
+            </div>
+          </div>
+          <br />
+          <div class="line1">
+            <div>
+              <h3>E-Mail</h3>
+              <input type="email" name="email" class="text1"/>
+            </div>
+            <div>
+              <h3>Contact Number</h3>
+              <input type="text"  name="contact_no" class="text1"/>
+            </div>
+          </div>
+          <br />
+          <div>
+            <h3>Amount</h3>
+            <input type="text"  name="amount" class="text1"/>
+          </div>
+
+          <div >
+            <h3>References</h3>
+            <input type="text"  name="inquiry" class="text1" />
+          </div>
+          <br />
+          <br />
+          <br />
+          <br />
+          <div>
+            <input type="Submit" name="submit_payment" value="Submit" class="Submit">
+          </div>
+      </div>
+      </form>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,160 @@
+body{
+  background-image: url(back.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+    font-family: Arial, sans-serif;
+    color: #333333;
+  }
+  
+  .flex{
+    display:flex;
+  
+  }
+  .flex-item{
+    flex:50%
+  }
+  
+  .text1,.text2 {
+    margin: 5px;
+    width: 550px;
+    height: 50px;
+    border: none !important; 
+    border-radius: 5px;
+    padding: 10px; 
+    font-size: 16px; 
+    width: 300px; 
+    background-color: rgb(160, 160, 179);
+    
+  }
+  .text1:focus,.text2:focus{
+    background-color: white;
+    border:1px solid #14084d !important;
+    outline: none; 
+  }
+  
+  .map {
+    margin-left: 50px;
+    margin-top : 10px;
+  }
+  
+  .text2 {
+    width: 520px;
+    height: 200px;
+    border: solid black 2px;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .left-section {
+    width: 70%;
+    display: flex;
+    justify-items: center;
+    padding: 20px;  
+  }
+  
+  .right-section {
+    display: flex;
+    width: 30%;
+    padding: 20px;
+    justify-items: center;
+    background-image: linear-gradient(144deg,#2d1fee, #b0a9d3 50%,#237c83);
+    border-radius: 15px;
+  }
+  
+  .line1 {
+    display: flex;
+  }
+  
+  .icon{
+     width:40px;
+     height:40px;
+     margin-top: 40px;
+  }
+  
+  .label{
+     padding: 10%;
+     align-items: center;
+  }
+  
+  .Submit{
+     width:80px;
+     height:50px;
+  }
+  
+  .userlabel{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .submit2{
+    width:350px;
+    height:50px;
+    margin-left: 20px;
+  }
+  
+  .Submit,.submit2 {
+    align-items: center;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+  
+  .Submit,.submit2:active,
+  .submit2,.Submit:hover {
+    outline: 0;
+  }
+  
+  .Submit,.submit2 span {
+    background-color: rgb(5, 6, 45);
+    padding: 16px 24px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+  }
+  
+  .submit,.submit2:hover span {
+    background: none;
+  }
+  
+  @media (min-width: 768px) {
+    .submit,.submit2 {
+      font-size: 24px;
+      min-width: 196px;
+    }
+  }
+  
+  h1 {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: #2f46af;
+    font-style: normal;
+  }
+  
+  .formuser{
+    padding: 15px;
+    background-image: linear-gradient(144deg,#bbb9df, #b0a9d3 50%,#58b9c0);
+    border-radius: 10px;
+    box-shadow: 10px 10px lightblue;
+  
+  }

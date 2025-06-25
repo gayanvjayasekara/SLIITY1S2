@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head class="header">
+        <title>Vehicle insurance management system</title>
+        <link rel="stylesheet" href="insurance2.css">
+    </head>
+
+    <body>
+
+        <div class="main">
+            <div class="navbar">
+                <div class="icon">
+                    <img class="i1" src="carlogo1.png">
+                </div>
+                <div class="menu">
+                    <ul class="u1">
+                        <li class="n1"><a href="index.html">HOME</a></li>
+                        <li class="n1"><a href="getinsurance.html">INSURANCE</a></li>
+                        <li class="n1"><a href="claim.html">CLAIMS</a></li>
+                        <li class="n1"><a href="contactus/contactus.php">CONTACTUS</a></li>
+                        <li class="n1"><a href="Thirdpartycover.php">THIRDPARTY</a></li>
+                        <li class="n1"><a href="privacypolicy.html">POLICIES</a></li>
+                        <li class="n1"><a href="login.php">LOGIN</a></li>
+                    </ul>
+                </div>
+                <a href="contactus/User.php"><img class="i2" src="userlogo.png"></a>
+            </div>
+        </div><br><br><br>
+
+        <br>
+        <h2 class="text">Vehicle Insurance Policy Details</h2><br>
+        <hr><br>
+        
+        <ul>
+            <li>Policy Number: A unique identifier assigned to each insurance policy, used for tracking and reference purposes.</li><br><br>
+            <li>Coverage Type: Specifies the type of coverage provided by the policy, such as liability, collision, comprehensive, or a combination of these.</li><br><br>
+            <li>Premium Amount: The cost of the insurance policy, usually paid monthly, quarterly, or annually by the policyholder.</li><br><br>
+            <li>Effective Dates: The period during which the insurance policy is active, including the start date and end date of coverage.</li><br><br>
+            <li>Insured Vehicle Details: Information about the vehicle being insured, including the make, model, year, and Vehicle Identification Number (VIN).</li><br><br>
+        </ul>
+        
+        <br>
+        <hr>
+        <h3>These details are essential for both the insurance company and the policyholder to understand the terms and coverage of the policy.</h3>
+        
+        <div class="confirm-checkbox">
+            <input type="checkbox" id="confirm" name="confirm" required>
+            <label for="confirm">I confirm that I have read and understood all the information correctly</label>
+        </div>
+        <br>
+        <center>
+            <button onclick="window.location.href='payment.html'" class="button" >SUBMIT</button>
+        </center>
+        </body>
+</html>

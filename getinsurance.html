@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<head  class="header">
+<title>SAFE TRAVEL VEHICLE INSURANCE</title>
+<link rel="stylesheet" type="text/css" href="insurance.css">
+
+
+
+
+</head>
+<body>
+
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <img class="i1" src="carlogo1.png">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li class="n1"><a href="index.html">HOME</a></li>
+                    <li class="n1"><a href="getinsurance.html">INSURANCE</a></li>
+                    <li class="n1"><a href="claim.html">CLAIMS</a></li>
+                    <li class="n1"><a href="contactus/contactus.php">CONTACTUS</a></li>
+                    <li class="n1"><a href="Thirdpartycover.php">THIRDPARTY</a></li>
+                    <li class="n1"><a href="privacypolicy.html">POLICIES</a></li>
+                    <li class="n1"><a href="login.php">LOGIN</a></li>
+                </ul>
+            </div>
+            <a href="contactus/User.php"><img class="i2" src="userlogo.png"></a>
+        </div>
+    </div><br><br><br>
+    
+    <form action="getinsurance.php" method="post">
+        <h2>GET YOUR INSURANCE</h2>
+        <div class="include">
+            <label for="FullNmae" >Enter Your Full Name</label>
+            <input type="text" id="fullname" name="fullname" required>
+
+            <label for="address">Enter Your Address</label>
+            <input type="text" id="address" name="address" required>
+
+
+            <div class="field">
+            <div class="right">
+                <label for="email">Enter Your Email</label>
+                <input type="email" id="mail" name="email" required>
+             </div>
+             <div class="right">
+                <label for="phone">Enter Your Mobile Number</label>
+                <input type="text" id="Mobile" name="Mobile" required>
+             </div>
+             <div class="right">
+                <label for="vehicle">Select Your Vehicle Type</label>
+                <select id="vehicle" name="vehicle" >
+                    <option value="">Car</option>
+                    <option value="">Suv</option>
+                    <option value="">Jeep</option>
+                    <option value="">Heavy Vehicle</option>
+                    <option value="">Theree wheel</option>
+                    <option value="">Motor Bike</option>
+                </select>
+                </div>
+                <div class="right">
+                    <label for="YOM">Enter Your YOM</label>
+                    <input type="text" id="YOM" name="YOM" required>
+                </div>
+            </div>
+
+            <label for="Value">Estimate Markrt Value</label>
+            <input type="text" id="value" name="value" required>
+
+           
+            <div class="field">
+                <div class="right">
+                    <label for="Vnumber">Enter Your Vehicle Number</label>
+                    <input type="text" id="Vnumber" name="Vnumber" required>
+                 </div>
+                 <div class="right">
+                    <label for="usage">Usage</label>
+                    <input type="text" id="Usage" name="Usage" required>
+                 </div>
+                <div class="right">
+                    <label for="make">Manufacturing Year</label>
+                    <input type="text" id="make" name="make" required>
+                    </div>
+                    <div class="right">
+                        <label for="FuelType">Fuel Type</label>
+                        <select  id="Ftype" name="Ftype">
+                            <option value="#">Petrol</option>
+                            <option value="#">Disel</option>
+                            <option value="#">Electric</option>
+                        </select>
+                    </div>
+                    
+                    
+                </div>
+                
+                
+                <label for="NIC">Enter Yout NIC Number</label>
+                <input type="text" id="NIC" name="NIC" required>
+                <div class="field">
+                <div class="right">
+                    <label for="lees">Do You Have On Going Lees</label>
+                    <select id="less" name="less">
+                        <option value="#">Yes</option>
+                        <option value="#">No</option>
+                    </select>
+                </div>
+                <div class="right">
+                    <label for="existing">Are You Existing Customer</label>
+                    <select id="existing" name="existing">
+                        <option value="#">Yes</option>
+                        <option value="#">No</option>
+                    </select>
+                </div> 
+                </div>
+                <div class="checkbox1">
+                    <input type="checkbox" class="checkbox" name="checkbox">
+                    <label for="agree">i Certify that the information furnished above is true and correct</label>
+                </div>
+                <br><br>
+                <center>
+                    <button  class="Btn" name="Btn">Save And Next Page</button>
+                </center>
+            </div>
+    </form>
+</body>
